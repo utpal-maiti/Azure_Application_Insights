@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{5D6F74C4-46AA-4196-BCFB-B31A5EAD5223}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Azure_Application_Insights", "..\", "{C92FA319-3321-4DEB-837A-6D78F385EC21}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54909"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\Azure_Application_Insights\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54909\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54909"
+		Release.AspNetCompiler.PhysicalPath = "..\..\Azure_Application_Insights\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54909\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54909"
+		SlnRelativePath = "..\..\Azure_Application_Insights\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleApi", "Api\SimpleApi.csproj", "{8E666CE4-9B5A-466A-B213-64EAEEC1B611}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C92FA319-3321-4DEB-837A-6D78F385EC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92FA319-3321-4DEB-837A-6D78F385EC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C92FA319-3321-4DEB-837A-6D78F385EC21}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C92FA319-3321-4DEB-837A-6D78F385EC21}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{8E666CE4-9B5A-466A-B213-64EAEEC1B611}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E666CE4-9B5A-466A-B213-64EAEEC1B611}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E666CE4-9B5A-466A-B213-64EAEEC1B611}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E666CE4-9B5A-466A-B213-64EAEEC1B611}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E666CE4-9B5A-466A-B213-64EAEEC1B611} = {5D6F74C4-46AA-4196-BCFB-B31A5EAD5223}
+	EndGlobalSection
+EndGlobal
